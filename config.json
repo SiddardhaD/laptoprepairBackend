@@ -1,0 +1,26 @@
+{
+    "development" : {
+      "username"  : "hcm-in",
+      "password"  : "ViBhoPROd_dB",
+      "database"  : "in_production",
+      "host"      : "vibho-prod-db.cy9oogbo6mef.eu-north-1.rds.amazonaws.com",
+      "port"      : 3306,
+      "dialect"   : "mysql"
+    },
+    "staging"     : {
+      "username"  : "vibho_in_staging",
+      "password"  : "INStaging@123$",
+      "database"  : "vibho_in_staging",
+      "host"      : "vibhodb.cy9oogbo6mef.eu-north-1.rds.amazonaws.comhost",
+      "port"      : 3306,
+      "dialect"   : "mysql"
+    },
+    "local"       : {
+      "username"  : "root",
+      "password"  : "",
+      "database"  : "myapp",
+      "host"      : "localhost",
+      "port"      : 3306,
+      "dialect"   : "mysql"
+    }
+  }
